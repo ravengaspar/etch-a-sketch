@@ -1,0 +1,23 @@
+.canvas {
+    border: 2px solid black;
+    max-width: 36em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pixel {
+    display: flex;
+    flex: 0 0 2em;
+    border: 2px solid black;
+    height: 2em;
+    width: 2em;
+}
+
+.active {
+    background: black;
+    border: 2px solid white;
+}
+
+.pixel:hover{
+    border: 2px solid mistyrose;
+}

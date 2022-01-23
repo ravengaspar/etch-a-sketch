@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 3em;
+}
+
+.container {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 2em 2em;
+    width: 10em;
+    padding: 1em;  
+}
+
+.bw {
+    background: black;
+    color: white;
+}
+
+.rainbow {
+	background: radial-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+.reset {
+ background: gray;
+ color: mistyrose;
+}

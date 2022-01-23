@@ -1,0 +1,8 @@
+:root {
+    --rainbow: black;
+}
+
+.active {
+    border: 2px solid white;
+    background: var(--rainbow);
+}
