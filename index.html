@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Etch-A-Sketch</title>
   </head>
   <body>
@@ -17,9 +17,21 @@
       </div>
     </div>
     <div class="container">
+      <p class="helper">** Click the pixel to erase **</p>
+    </div>
+    <div class="container">
       <button class="bw">B/W</button>
       <button class="rainbow">Rainbow</button>
       <button class="reset">Reset</button>
+    </div>
+    <div class="container">
+      <input
+        type="number"
+        min="2"
+        max="16"
+        id="input"
+        placeholder="set your preffered grid size"
+      />
     </div>
     <script src="script.js"></script>
   </body>

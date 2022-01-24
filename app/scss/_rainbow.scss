@@ -1,8 +1,13 @@
 :root {
-    --rainbow: black;
+    --pixelColor: black;
 }
 
 .active {
-    border: 2px solid white;
-    background: var(--rainbow);
+    border-color: white;
+    background: var(--pixelColor);
+}
+
+.rnw {
+    border-color: white;
+    background: var(--pixelColor);
 }

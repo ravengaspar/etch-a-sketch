@@ -1,5 +1,6 @@
 .canvas {
-    border: 2px solid black;
+    border: 10px solid white;
+    padding: .5em;
     max-width: 36em;
     display: flex;
     flex-wrap: wrap;
@@ -7,15 +8,10 @@
 
 .pixel {
     display: flex;
-    flex: 0 0 2em;
-    border: 2px solid black;
     height: 2em;
     width: 2em;
-}
-
-.active {
-    background: black;
-    border: 2px solid white;
+    border: 2px solid black;
+    
 }
 
 .pixel:hover{

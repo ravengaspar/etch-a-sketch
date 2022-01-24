@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100vw;
+  max-height: 100vh;
+  font-family: 'Press Start 2P', cursive;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(salmon), to(wheat));
+  background-image: linear-gradient(180deg, salmon, wheat);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 5em;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  margin: 2em 2em;
+  width: 10em;
+  padding: 1em;
+  -webkit-transition: border 150ms ease-in-out;
+  transition: border 150ms ease-in-out;
+}
+
+button:hover {
+  border: 2px solid orange;
+  background: white;
+  color: black;
+}
+
+.bw {
+  background: black;
+  color: white;
+}
+
+.rainbow {
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet));
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.clicked {
+  border: 2px solid red;
+}
+
+.reset {
+  background: gray;
+  color: mistyrose;
+}
+
+.helper {
+  font-style: italic;
+  color: salmon;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+}
+
+#input {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  height: 4em;
+  width: 38em;
+}
+
+.canvas {
+  border: 10px solid white;
+  padding: .5em;
+  max-width: 36em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pixel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2em;
+  width: 2em;
+  border: 2px solid black;
+}
+
+.pixel:hover {
+  border: 2px solid mistyrose;
+}
+
+:root {
+  --pixelColor: black;
+}
+
+.active {
+  border-color: white;
+  background: var(--pixelColor);
+}
+
+.rnw {
+  border-color: white;
+  background: var(--pixelColor);
+}
