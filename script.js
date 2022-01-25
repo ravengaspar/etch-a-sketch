@@ -70,37 +70,38 @@ eraser = () => {
 drawCanvas(size)
 
 input.addEventListener('input', (e) => {
-  size = e.data * e.data
+  console.log(e.target.value)
+  size = e.target.value * e.target.value
   canvas.innerHTML = ''
-  if (e.data == 2) {
+  if (e.target.value == 2) {
     canvas.style.setProperty('max-width', 4.5 + 'em')
-  } else if (e.data == 3) {
+  } else if (e.target.value == 3) {
     canvas.style.setProperty('max-width', 6.75 + 'em')
-  } else if (e.data == 4) {
+  } else if (e.target.value == 4) {
     canvas.style.setProperty('max-width', 9 + 'em')
-  } else if (e.data == 5) {
+  } else if (e.target.value == 5) {
     canvas.style.setProperty('max-width', 11.25 + 'em')
-  } else if (e.data == 6) {
+  } else if (e.target.value == 6) {
     canvas.style.setProperty('max-width', 13.5 + 'em')
-  } else if (e.data == 7) {
+  } else if (e.target.value == 7) {
     canvas.style.setProperty('max-width', 15.75 + 'em')
-  } else if (e.data == 8) {
+  } else if (e.target.value == 8) {
     canvas.style.setProperty('max-width', 18 + 'em')
-  } else if (e.data == 9) {
+  } else if (e.target.value == 9) {
     canvas.style.setProperty('max-width', 20.25 + 'em')
-  } else if (e.data == 10) {
+  } else if (e.target.value == 10) {
     canvas.style.setProperty('max-width', 22.5 + 'em')
-  } else if (e.data == 11) {
+  } else if (e.target.value == 11) {
     canvas.style.setProperty('max-width', 24.75 + 'em')
-  } else if (e.data == 12) {
+  } else if (e.target.value == 12) {
     canvas.style.setProperty('max-width', 27 + 'em')
-  } else if (e.data == 13) {
+  } else if (e.target.value == 13) {
     canvas.style.setProperty('max-width', 29.25 + 'em')
-  } else if (e.data == 14) {
+  } else if (e.target.value == 14) {
     canvas.style.setProperty('max-width', 31.5 + 'em')
-  } else if (e.data == 15) {
+  } else if (e.target.value == 15) {
     canvas.style.setProperty('max-width', 33.75 + 'em')
-  } else if (e.data == 16) {
+  } else if (e.target.value == 16) {
     canvas.style.setProperty('max-width', 36 + 'em')
   }
 
